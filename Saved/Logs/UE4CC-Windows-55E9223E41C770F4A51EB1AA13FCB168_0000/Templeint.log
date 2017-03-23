@@ -1,0 +1,1275 @@
+﻿Log file open, 03/23/17 16:20:46
+LogInit:Display: Running engine for game: Templeint
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1915864763) SRandInit(1915864763).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074634
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-22.20.46:888][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-22.20.46:888][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-22.20.46:901][  0]LogInit: Computer: eae-d-004
+[2017.03.23-22.20.46:901][  0]LogInit: User: u0950276
+[2017.03.23-22.20.46:901][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-22.20.46:901][  0]LogInit: High frequency timer resolution =3.513589 MHz
+[2017.03.23-22.20.46:901][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.03.23-22.20.46:901][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-22.20.46:901][  0]LogMemory: Process Physical Memory: 262.23 MB used, 262.23 MB peak
+[2017.03.23-22.20.46:901][  0]LogMemory: Process Virtual Memory: 262.49 MB used, 262.49 MB peak
+[2017.03.23-22.20.46:901][  0]LogMemory: Physical Memory: 4138.38 MB used,  28506.27 MB free, 32644.64 MB total
+[2017.03.23-22.20.46:901][  0]LogMemory: Virtual Memory: 644.47 MB used,  28506.27 MB free, 134217728.00 MB total
+[2017.03.23-22.20.46:967][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.23-22.20.47:508][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.23-22.20.47:536][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.03.23-22.20.47:536][  0]LogD3D11RHI:       8145/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.23-22.20.47:541][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.23-22.20.47:541][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.23-22.20.47:542][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.23-22.20.47:542][  0]LogD3D11RHI:       0/0/16322 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.23-22.20.47:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.23-22.20.47:546][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.23-22.20.47:546][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.23-22.20.47:546][  0]LogWindows: EnumDisplayDevices:
+[2017.03.23-22.20.47:546][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.03.23-22.20.47:546][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.23-22.20.47:546][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.23-22.20.47:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.03.23-22.20.47:546][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-22.20.47:547][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-22.20.47:547][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-22.20.47:547][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.23-22.20.47:547][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.03.23-22.20.47:547][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.03.23-22.20.47:547][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.03.23-22.20.47:547][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.23-22.20.47:559][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.23-22.20.47:569][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.23-22.20.47:617][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/u0950276/Desktop/Templeint/Intermediate/Shaders/WorkingDirectory/232/).
+[2017.03.23-22.20.47:618][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u0950276/AppData/Local/Temp/UnrealShaderWorkingDir/4AAE1F744D2D5A397B2B4DAB8FCD8988/'.
+[2017.03.23-22.20.47:618][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-22.20.48:552][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.23-22.20.48:599][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.23-22.20.48:645][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.23-22.20.48:690][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.23-22.20.48:737][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.23-22.20.48:784][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-22.20.48:830][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-22.20.48:876][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-22.20.48:914][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-22.20.48:958][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.23-22.20.49:002][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.23-22.20.49:047][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.23-22.20.49:091][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.23-22.20.49:148][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.23-22.20.49:193][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.23-22.20.49:286][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.23-22.20.49:286][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.23-22.20.49:330][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.23-22.20.49:414][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.23-22.20.49:445][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.23-22.20.49:492][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.23-22.20.49:538][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.23-22.20.49:585][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.23-22.20.49:633][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.23-22.20.49:634][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.23-22.20.50:046][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/u0950276/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u0950276/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u0950276/Desktop/Templeint/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u0950276/Desktop/Templeint/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-22.20.50:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-22.20.50:113][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-22.20.50:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u0950276/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-22.20.50:132][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.23-22.20.50:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-22.20.50:133][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-22.20.50:374][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-22.20.50:376][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.23-22.20.50:561][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.23-22.20.50:598][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.23-22.20.50:640][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.23-22.20.50:640][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.23-22.20.50:640][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-22.20.51:103][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: templeint, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4162902586
+[2017.03.23-22.20.51:148][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.03.23-22.20.51:196][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025792 seconds
+[2017.03.23-22.20.51:201][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.23-22.20.51:201][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.23-22.20.51:201][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-22.20.51:256][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.23-22.20.52:660][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.23-22.20.52:696][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.23-22.20.53:104][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.23-22.20.53:443][  0]SourceControl: Info Source control is disabled
+[2017.03.23-22.20.53:475][  0]SourceControl: Info Source control is disabled
+[2017.03.23-22.20.53:518][  0]SourceControl: Info Source control is disabled
+[2017.03.23-22.20.53:558][  0]SourceControl: Info Source control is disabled
+[2017.03.23-22.20.54:708][  0]LogEngine: Initializing Engine...
+[2017.03.23-22.20.54:708][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.23-22.20.54:911][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.23-22.20.54:922][  0]LogInit: XAudio2 using 'DELL UZ2315H-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.23-22.20.54:937][  0]LogInit: FAudioDevice initialized.
+[2017.03.23-22.20.54:961][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/u0950276/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.23-22.20.54:969][  0]LogInit: Texture streaming: Enabled
+[2017.03.23-22.20.55:053][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.23-22.20.55:131][  0]LogInit: Transaction tracking system initialized
+[2017.03.23-22.20.55:433][  0]BlueprintLog: New page: Editor Load
+[2017.03.23-22.20.56:148][  0]LocalizationService: Info Localization service is disabled
+[2017.03.23-22.20.56:686][  0]LogConsoleResponse:Display: 
+[2017.03.23-22.20.56:792][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.23-22.20.56:792][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.23-22.20.57:266][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0950276/Desktop/Templeint/Content/' took 0.02s
+[2017.03.23-22.20.57:626][  0]SourceControl: Info Source control is disabled
+[2017.03.23-22.20.57:626][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.23-22.20.57:631][  0]LightingResults: New page: Lighting Build
+[2017.03.23-22.20.57:663][  0]MapCheck: New page: Map Check
+[2017.03.23-22.20.57:663][  0]LightingResults: New page: Lighting Build
+[2017.03.23-22.20.58:041][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.23-22.20.58:052][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.23-22.20.58:053][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.23-22.20.58:088][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.936ms to complete.
+[2017.03.23-22.20.58:088][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.462
+[2017.03.23-22.20.58:142][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-22.20.58:270][  0]LogCollectionManager: Loaded 0 collections in 0.001576 seconds
+[2017.03.23-22.20.58:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0950276/Desktop/Templeint/Saved/Collections/' took 0.01s
+[2017.03.23-22.20.58:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0950276/Desktop/Templeint/Content/Developers/u0950276/Collections/' took 0.01s
+[2017.03.23-22.20.58:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u0950276/Desktop/Templeint/Content/Collections/' took 0.01s
+[2017.03.23-22.20.58:348][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.23-22.20.58:358][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2244 classes and 450 folders.
+[2017.03.23-22.20.58:362][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.23-22.20.58:363][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.23-22.20.58:413][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.23-22.20.58:668][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.23-22.20.58:706][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.23-22.20.58:771][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.23-22.20.58:872][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.23-22.20.58:872][  0]LogLoad: (Engine Initialization) Total time: 13.69 seconds
+[2017.03.23-22.20.58:872][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.03.23-22.20.58:872][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.23-22.20.58:872][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.23-22.20.58:881][  0]LogOcInput: OculusInput pre-init called
+[2017.03.23-22.20.58:902][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.23-22.20.58:903][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.23-22.20.58:906][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.23-22.20.58:916][  0]LogSlate: Took 0.004358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.23-22.20.59:064][  0]LogSlate: Took 0.003872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.23-22.20.59:104][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.23-22.20.59:172][  1]LogAssetRegistry: Asset discovery search completed in 8.0464 seconds
+[2017.03.23-22.20.59:172][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.23-22.20.59:172][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.03.23-22.21.12:152][956]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.23-22.21.12:559][956]LogParticles:Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/StarterContent/Particles/P_Sparks.P_Sparks)
+[2017.03.23-22.23.10:204][929]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Table)
+[2017.03.23-22.25.59:665][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:665][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Props/SM_Door.uasset.
+[2017.03.23-22.25.59:665][147]LoadErrors:Error: Error /Game/StarterContent/Props/SM_Door : Can't find file for asset. /Game/StarterContent/Materials/M_Glass
+[2017.03.23-22.25.59:671][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:671][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Props/SM_Door.uasset.
+[2017.03.23-22.25.59:671][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:671][147]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Glass.M_Glass Referenced by SM_Door
+[2017.03.23-22.25.59:671][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading NULL.
+[2017.03.23-22.25.59:682][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:682][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Props/SM_GlassWindow.uasset.
+[2017.03.23-22.25.59:682][147]LoadErrors:Error: Error /Game/StarterContent/Props/SM_GlassWindow : Can't find file for asset. /Game/StarterContent/Materials/M_Glass
+[2017.03.23-22.25.59:683][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:683][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Props/SM_GlassWindow.uasset.
+[2017.03.23-22.25.59:683][147]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Glass'
+[2017.03.23-22.25.59:683][147]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Glass.M_Glass Referenced by SM_GlassWindow
+[2017.03.23-22.25.59:683][147]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Glass' while loading NULL.
+[2017.03.23-22.27.57:688][379]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.03.23-22.27.57:690][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:690][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.27.57:690][379]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.03.23-22.27.57:692][379]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.03.23-22.27.57:692][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:692][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.27.57:692][379]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.03.23-22.27.57:694][379]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.03.23-22.27.57:694][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:694][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.27.57:694][379]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.03.23-22.27.57:696][379]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.03.23-22.27.57:696][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:696][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.27.57:696][379]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.03.23-22.27.57:698][379]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.03.23-22.27.57:698][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:698][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.27.57:699][379]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.03.23-22.27.57:700][379]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.27.57:700][379]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.28.33:602][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-22.28.51:339][120]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2017.03.23-22.28.51:340][120]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.28.51:340][120]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.28.51:341][120]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2017.03.23-22.28.51:342][120]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.28.51:342][120]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.29.32:225][863]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.23-22.29.50:448][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:448][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2017.03.23-22.29.50:448][264]LoadErrors:Error: Error /Game/StarterContent/Blueprints/BP_LightStudio : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2017.03.23-22.29.50:448][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:448][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2017.03.23-22.29.50:449][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:449][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.03.23-22.29.50:450][264]LoadErrors:Error: Error /Game/StarterContent/Maps/Advanced_Lighting : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2017.03.23-22.29.50:450][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:450][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.03.23-22.29.50:450][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:450][264]LoadErrors: Info Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by Default__BP_LightStudio_C
+[2017.03.23-22.29.50:450][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.03.23-22.29.50:584][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:584][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.03.23-22.29.50:585][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:585][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.03.23-22.29.50:591][264]LogLinker:Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.03.23-22.29.50:591][264]LoadErrors: Info Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by MaterialInstanceDynamic_2
+[2017.03.23-22.29.50:592][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading NULL.
+[2017.03.23-22.29.50:731][264]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2017.03.23-22.29.50:760][264]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_SubUV
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2017.03.23-22.29.50:760][264]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_Tiled_D
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2017.03.23-22.29.50:760][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Sparks'
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Sparks' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2017.03.23-22.29.50:780][264]LoadErrors:Error: Error /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks : Can't find file for asset. /Game/StarterContent/Particles/P_Sparks
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Sparks'
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Sparks' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset.
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Sparks'
+[2017.03.23-22.29.50:780][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Sparks' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:781][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Particles/P_Sparks
+[2017.03.23-22.29.50:781][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Sparks'
+[2017.03.23-22.29.50:781][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Sparks' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:781][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Sparks'
+[2017.03.23-22.29.50:781][264]LoadErrors: Info Failed to load /Game/StarterContent/Particles/P_Sparks.P_Sparks Referenced by ParticleSystemComponent_0
+[2017.03.23-22.29.50:781][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Sparks' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:805][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Ceiling'
+[2017.03.23-22.29.50:805][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Ceiling' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset.
+[2017.03.23-22.29.50:805][264]LoadErrors:Error: Error /Game/StarterContent/Blueprints/Blueprint_CeilingLight : Can't find file for asset. /Game/StarterContent/Props/SM_Lamp_Ceiling
+[2017.03.23-22.29.50:805][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Ceiling'
+[2017.03.23-22.29.50:805][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Ceiling' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset.
+[2017.03.23-22.29.50:806][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Ceiling'
+[2017.03.23-22.29.50:806][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Ceiling' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:806][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_Lamp_Ceiling
+[2017.03.23-22.29.50:806][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Ceiling'
+[2017.03.23-22.29.50:806][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Ceiling' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:808][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Ceiling'
+[2017.03.23-22.29.50:808][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling Referenced by StaticMeshComponent_25
+[2017.03.23-22.29.50:808][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Ceiling' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:813][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Wall'
+[2017.03.23-22.29.50:813][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Wall' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset.
+[2017.03.23-22.29.50:813][264]LoadErrors:Error: Error /Game/StarterContent/Blueprints/Blueprint_WallSconce : Can't find file for asset. /Game/StarterContent/Props/SM_Lamp_Wall
+[2017.03.23-22.29.50:813][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Wall'
+[2017.03.23-22.29.50:813][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Wall' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset.
+[2017.03.23-22.29.50:814][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Wall'
+[2017.03.23-22.29.50:814][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Wall' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:814][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_Lamp_Wall
+[2017.03.23-22.29.50:814][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Wall'
+[2017.03.23-22.29.50:814][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Wall' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:816][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Lamp_Wall'
+[2017.03.23-22.29.50:816][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall Referenced by StaticMeshComponent_5
+[2017.03.23-22.29.50:816][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Lamp_Wall' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:830][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.50:830][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:830][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2017.03.23-22.29.50:899][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.50:900][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:900][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Ceramic_Tile_Checker
+[2017.03.23-22.29.50:900][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.50:900][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:900][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_CobbleStone_Pebble
+[2017.03.23-22.29.50:900][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.50:900][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:900][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_CobbleStone_Rough
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:907][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Panels
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:907][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Poured
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.50:907][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:907][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Concrete_Tiles
+[2017.03.23-22.29.50:921][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.50:921][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:921][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Chrome
+[2017.03.23-22.29.50:933][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.50:933][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:933][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Rock_Marble_Polished
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Checker_Noise_M'
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Checker_Noise_M' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:940][264]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Tech_Checker_Dot : Can't find file for asset. /Game/StarterContent/Textures/T_Checker_Noise_M
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Single_Tile_N'
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Single_Tile_N' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:940][264]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Tech_Checker_Dot : Can't find file for asset. /Game/StarterContent/Textures/T_Single_Tile_N
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_M'
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_M' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:940][264]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Tech_Checker_Dot : Can't find file for asset. /Game/StarterContent/Textures/T_Tech_Dot_M
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_N'
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_N' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:940][264]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Tech_Checker_Dot : Can't find file for asset. /Game/StarterContent/Textures/T_Tech_Dot_N
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Checker_Noise_M'
+[2017.03.23-22.29.50:940][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Checker_Noise_M' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Single_Tile_N'
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Single_Tile_N' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_M'
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_M' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_N'
+[2017.03.23-22.29.50:941][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_N' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset.
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:942][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Tech_Hex_Tile
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:942][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.50:942][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:942][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Tech_Panel
+[2017.03.23-22.29.50:945][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.50:945][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:945][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Water_Ocean
+[2017.03.23-22.29.50:945][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.50:945][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:945][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.03.23-22.29.50:946][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.50:946][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:946][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn
+[2017.03.23-22.29.50:947][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.50:947][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:948][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2017.03.23-22.29.50:949][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.50:949][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:950][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Chair
+[2017.03.23-22.29.50:955][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.50:955][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:955][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.50:955][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.50:956][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.50:957][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.50:958][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:959][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.50:959][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:966][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.50:966][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:967][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/MaterialSphere
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:967][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_Chair
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:967][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_CornerFrame
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_DoorFrame'
+[2017.03.23-22.29.50:967][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_DoorFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:967][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_DoorFrame
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_GlassWindow'
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_GlassWindow' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:968][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_GlassWindow
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:968][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_PillarFrame
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:968][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_PillarFrame300
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:968][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_Statue
+[2017.03.23-22.29.50:968][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:969][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_TableRound
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_WindowFrame'
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_WindowFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:969][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Props/SM_WindowFrame
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:969][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_QuadPyramid'
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_QuadPyramid' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:969][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Shapes/Shape_QuadPyramid
+[2017.03.23-22.29.50:969][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.50:970][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:970][264]LoadErrors:Error: Error /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Sphere
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_DoorFrame'
+[2017.03.23-22.29.50:971][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_DoorFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_GlassWindow'
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_GlassWindow' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.29.50:972][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_WindowFrame'
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_WindowFrame' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_QuadPyramid'
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_QuadPyramid' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.50:973][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/StarterMap.umap.
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading NULL.
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading NULL.
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.50:974][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading NULL.
+[2017.03.23-22.29.50:975][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading NULL.
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.50:976][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading NULL.
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.50:977][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_DoorFrame'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_DoorFrame' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_GlassWindow'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_GlassWindow' while loading NULL.
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.50:978][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_WindowFrame'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_WindowFrame' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_QuadPyramid'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_QuadPyramid' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.50:979][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_DoorFrame'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_DoorFrame' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_GlassWindow'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_GlassWindow' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_WindowFrame'
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_WindowFrame' while loading NULL.
+[2017.03.23-22.29.50:980][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.50:981][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.50:981][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_QuadPyramid'
+[2017.03.23-22.29.50:981][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_QuadPyramid' while loading NULL.
+[2017.03.23-22.29.50:981][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.50:981][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.51:024][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Chair.SM_Chair Referenced by Chair
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.51:024][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Chair.M_Chair Referenced by Chair
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.29.51:024][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Chair.SM_Chair Referenced by Chair_94
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.29.51:024][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.29.51:024][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Chair.M_Chair Referenced by Chair_94
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_DoorFrame'
+[2017.03.23-22.29.51:025][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame Referenced by DoorFrame
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_DoorFrame' while loading NULL.
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.51:025][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Ceramic_Tile_Checker.M_Ceramic_Tile_Checker Referenced by Floor_11
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading NULL.
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.51:025][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_CobbleStone_Pebble.M_CobbleStone_Pebble Referenced by Floor_12
+[2017.03.23-22.29.51:025][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading NULL.
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.51:026][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_CobbleStone_Rough.M_CobbleStone_Rough Referenced by Floor_13
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading NULL.
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.51:026][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Panels.M_Concrete_Panels Referenced by Floor_16
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading NULL.
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.51:026][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Tiles.M_Concrete_Tiles Referenced by Floor_17
+[2017.03.23-22.29.51:026][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading NULL.
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.51:027][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Poured.M_Concrete_Poured Referenced by Floor_18
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading NULL.
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.51:027][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Ceramic_Tile_Checker.M_Ceramic_Tile_Checker Referenced by Floor_2
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading NULL.
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.51:027][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome Referenced by Floor_26
+[2017.03.23-22.29.51:027][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading NULL.
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.51:028][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Rock_Marble_Polished.M_Rock_Marble_Polished Referenced by Floor_29
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading NULL.
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.51:028][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by Floor_33
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.51:028][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Panel.M_Tech_Panel Referenced by Floor_35
+[2017.03.23-22.29.51:028][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading NULL.
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.51:029][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse Referenced by Floor_36
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading NULL.
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.51:029][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean Referenced by Floor_38
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading NULL.
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.51:029][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled Referenced by Floor_4
+[2017.03.23-22.29.51:029][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading NULL.
+[2017.03.23-22.29.51:030][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.51:030][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine Referenced by Floor_41
+[2017.03.23-22.29.51:030][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading NULL.
+[2017.03.23-22.29.51:030][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.51:030][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.M_Wood_Floor_Walnut_Worn Referenced by Floor_42
+[2017.03.23-22.29.51:030][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading NULL.
+[2017.03.23-22.29.51:030][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.51:030][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished Referenced by Floor_43
+[2017.03.23-22.29.51:031][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading NULL.
+[2017.03.23-22.29.51:031][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_GlassWindow'
+[2017.03.23-22.29.51:031][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow Referenced by GlassWindow
+[2017.03.23-22.29.51:031][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_GlassWindow' while loading NULL.
+[2017.03.23-22.29.51:031][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:031][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_10
+[2017.03.23-22.29.51:031][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:032][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_11
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Panels'
+[2017.03.23-22.29.51:032][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Panels.M_Concrete_Panels Referenced by MaterialSphere_11
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Panels' while loading NULL.
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:032][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_12
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:032][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Tiles'
+[2017.03.23-22.29.51:033][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Tiles.M_Concrete_Tiles Referenced by MaterialSphere_12
+[2017.03.23-22.29.51:033][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Tiles' while loading NULL.
+[2017.03.23-22.29.51:033][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:033][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_13
+[2017.03.23-22.29.51:033][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:033][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Concrete_Poured'
+[2017.03.23-22.29.51:033][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Concrete_Poured.M_Concrete_Poured Referenced by MaterialSphere_13
+[2017.03.23-22.29.51:033][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Concrete_Poured' while loading NULL.
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:034][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_14
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:034][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_15
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:034][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_16
+[2017.03.23-22.29.51:034][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:035][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_17
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2017.03.23-22.29.51:035][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled Referenced by MaterialSphere_17
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading NULL.
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:035][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_18
+[2017.03.23-22.29.51:035][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:036][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:036][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_19
+[2017.03.23-22.29.51:036][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:036][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:036][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_2
+[2017.03.23-22.29.51:036][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:037][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:037][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_20
+[2017.03.23-22.29.51:037][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:037][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:037][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_21
+[2017.03.23-22.29.51:037][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:037][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Chrome'
+[2017.03.23-22.29.51:038][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Chrome.M_Metal_Chrome Referenced by MaterialSphere_21
+[2017.03.23-22.29.51:038][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Chrome' while loading NULL.
+[2017.03.23-22.29.51:038][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:038][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_22
+[2017.03.23-22.29.51:038][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:038][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:038][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_23
+[2017.03.23-22.29.51:038][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:039][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:039][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_24
+[2017.03.23-22.29.51:039][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:039][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Rock_Marble_Polished'
+[2017.03.23-22.29.51:039][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Rock_Marble_Polished.M_Rock_Marble_Polished Referenced by MaterialSphere_24
+[2017.03.23-22.29.51:039][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Rock_Marble_Polished' while loading NULL.
+[2017.03.23-22.29.51:039][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:040][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_25
+[2017.03.23-22.29.51:040][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:040][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:040][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_26
+[2017.03.23-22.29.51:040][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:040][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:040][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_27
+[2017.03.23-22.29.51:041][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:041][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:041][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_28
+[2017.03.23-22.29.51:041][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:041][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile'
+[2017.03.23-22.29.51:041][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile.M_Tech_Hex_Tile Referenced by MaterialSphere_28
+[2017.03.23-22.29.51:041][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile' while loading NULL.
+[2017.03.23-22.29.51:042][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:042][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_29
+[2017.03.23-22.29.51:042][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:042][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:042][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_3
+[2017.03.23-22.29.51:042][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:042][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:043][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_30
+[2017.03.23-22.29.51:043][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:043][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Panel'
+[2017.03.23-22.29.51:043][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Panel.M_Tech_Panel Referenced by MaterialSphere_30
+[2017.03.23-22.29.51:043][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Panel' while loading NULL.
+[2017.03.23-22.29.51:043][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:044][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_31
+[2017.03.23-22.29.51:044][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:044][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse'
+[2017.03.23-22.29.51:044][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.M_Tech_Hex_Tile_Pulse Referenced by MaterialSphere_31
+[2017.03.23-22.29.51:044][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse' while loading NULL.
+[2017.03.23-22.29.51:044][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:044][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_32
+[2017.03.23-22.29.51:044][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:045][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:045][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_33
+[2017.03.23-22.29.51:045][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:045][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Water_Ocean'
+[2017.03.23-22.29.51:045][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean Referenced by MaterialSphere_33
+[2017.03.23-22.29.51:045][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Water_Ocean' while loading NULL.
+[2017.03.23-22.29.51:046][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:046][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_34
+[2017.03.23-22.29.51:046][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:046][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:046][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_35
+[2017.03.23-22.29.51:046][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:047][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:047][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_36
+[2017.03.23-22.29.51:047][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:047][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2017.03.23-22.29.51:047][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine Referenced by MaterialSphere_36
+[2017.03.23-22.29.51:047][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading NULL.
+[2017.03.23-22.29.51:048][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:048][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_37
+[2017.03.23-22.29.51:048][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:048][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn'
+[2017.03.23-22.29.51:048][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.M_Wood_Floor_Walnut_Worn Referenced by MaterialSphere_37
+[2017.03.23-22.29.51:048][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn' while loading NULL.
+[2017.03.23-22.29.51:049][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:049][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_38
+[2017.03.23-22.29.51:049][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:049][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'
+[2017.03.23-22.29.51:049][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished Referenced by MaterialSphere_38
+[2017.03.23-22.29.51:049][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' while loading NULL.
+[2017.03.23-22.29.51:050][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:050][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_4
+[2017.03.23-22.29.51:050][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:050][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:050][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_5
+[2017.03.23-22.29.51:050][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:051][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:051][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_50
+[2017.03.23-22.29.51:051][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:051][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:051][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_6
+[2017.03.23-22.29.51:052][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:052][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker'
+[2017.03.23-22.29.51:052][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Ceramic_Tile_Checker.M_Ceramic_Tile_Checker Referenced by MaterialSphere_6
+[2017.03.23-22.29.51:052][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Ceramic_Tile_Checker' while loading NULL.
+[2017.03.23-22.29.51:052][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:052][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_7
+[2017.03.23-22.29.51:052][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:053][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Pebble'
+[2017.03.23-22.29.51:053][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_CobbleStone_Pebble.M_CobbleStone_Pebble Referenced by MaterialSphere_7
+[2017.03.23-22.29.51:053][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Pebble' while loading NULL.
+[2017.03.23-22.29.51:053][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:053][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_8
+[2017.03.23-22.29.51:053][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:054][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_CobbleStone_Rough'
+[2017.03.23-22.29.51:054][264]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_CobbleStone_Rough.M_CobbleStone_Rough Referenced by MaterialSphere_8
+[2017.03.23-22.29.51:054][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_CobbleStone_Rough' while loading NULL.
+[2017.03.23-22.29.51:054][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/MaterialSphere'
+[2017.03.23-22.29.51:054][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/MaterialSphere.MaterialSphere Referenced by MaterialSphere_9
+[2017.03.23-22.29.51:054][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/MaterialSphere' while loading NULL.
+[2017.03.23-22.29.51:055][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:055][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar
+[2017.03.23-22.29.51:055][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:055][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:055][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_137
+[2017.03.23-22.29.51:056][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:056][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:056][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_138
+[2017.03.23-22.29.51:056][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:056][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:056][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_139
+[2017.03.23-22.29.51:057][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:057][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:057][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_140
+[2017.03.23-22.29.51:057][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:057][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:058][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_141
+[2017.03.23-22.29.51:058][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:058][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:058][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_142
+[2017.03.23-22.29.51:058][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:058][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:059][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_143
+[2017.03.23-22.29.51:059][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:059][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame300'
+[2017.03.23-22.29.51:059][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300 Referenced by Pillar_144
+[2017.03.23-22.29.51:059][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame300' while loading NULL.
+[2017.03.23-22.29.51:059][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:060][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_54
+[2017.03.23-22.29.51:060][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:060][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:060][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_55
+[2017.03.23-22.29.51:060][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:060][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:061][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_56
+[2017.03.23-22.29.51:061][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:061][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:061][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_57
+[2017.03.23-22.29.51:061][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:062][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:062][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_58
+[2017.03.23-22.29.51:062][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:062][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:062][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_59
+[2017.03.23-22.29.51:062][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:063][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:063][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_60
+[2017.03.23-22.29.51:063][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:063][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:063][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_61
+[2017.03.23-22.29.51:063][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:064][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:064][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_62
+[2017.03.23-22.29.51:064][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:064][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:064][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_63
+[2017.03.23-22.29.51:064][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:065][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:065][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_64
+[2017.03.23-22.29.51:065][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:065][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:066][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_65
+[2017.03.23-22.29.51:066][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:066][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:066][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_66
+[2017.03.23-22.29.51:066][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:067][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:067][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_67
+[2017.03.23-22.29.51:067][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:067][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:067][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_68
+[2017.03.23-22.29.51:067][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:068][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:068][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_69
+[2017.03.23-22.29.51:068][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:068][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:069][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_70
+[2017.03.23-22.29.51:069][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:069][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:069][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_71
+[2017.03.23-22.29.51:069][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:070][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:070][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_72
+[2017.03.23-22.29.51:070][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:070][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:071][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_73
+[2017.03.23-22.29.51:071][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:071][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:071][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_74
+[2017.03.23-22.29.51:071][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:072][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:072][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_75
+[2017.03.23-22.29.51:072][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:072][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:072][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_76
+[2017.03.23-22.29.51:072][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:073][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:073][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_77
+[2017.03.23-22.29.51:073][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:073][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:074][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_78
+[2017.03.23-22.29.51:074][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:074][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:074][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_79
+[2017.03.23-22.29.51:074][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:075][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:075][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_80
+[2017.03.23-22.29.51:075][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:075][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:076][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_81
+[2017.03.23-22.29.51:076][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:076][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:076][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_82
+[2017.03.23-22.29.51:076][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:077][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:077][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_83
+[2017.03.23-22.29.51:077][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:077][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:078][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_84
+[2017.03.23-22.29.51:078][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:078][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:078][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_85
+[2017.03.23-22.29.51:078][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:079][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:079][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_86
+[2017.03.23-22.29.51:079][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:079][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:080][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_87
+[2017.03.23-22.29.51:080][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:080][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:080][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_88
+[2017.03.23-22.29.51:080][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:081][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:081][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_89
+[2017.03.23-22.29.51:081][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:081][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:082][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_90
+[2017.03.23-22.29.51:082][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:082][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:082][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_91
+[2017.03.23-22.29.51:082][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:083][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:083][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_92
+[2017.03.23-22.29.51:083][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:084][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_PillarFrame'
+[2017.03.23-22.29.51:084][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame Referenced by Pillar_93
+[2017.03.23-22.29.51:084][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_PillarFrame' while loading NULL.
+[2017.03.23-22.29.51:084][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:085][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner
+[2017.03.23-22.29.51:085][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:085][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:085][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_146
+[2017.03.23-22.29.51:085][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:086][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:086][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_147
+[2017.03.23-22.29.51:086][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:086][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:087][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_148
+[2017.03.23-22.29.51:087][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:087][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:087][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_149
+[2017.03.23-22.29.51:087][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:088][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:088][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_150
+[2017.03.23-22.29.51:088][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:088][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:088][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_151
+[2017.03.23-22.29.51:089][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:089][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:089][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_152
+[2017.03.23-22.29.51:089][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:090][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:090][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_153
+[2017.03.23-22.29.51:090][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:090][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:091][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_154
+[2017.03.23-22.29.51:091][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:091][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:091][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_155
+[2017.03.23-22.29.51:091][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:092][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:092][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_156
+[2017.03.23-22.29.51:092][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:092][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:093][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_157
+[2017.03.23-22.29.51:093][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:093][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:093][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_158
+[2017.03.23-22.29.51:093][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:094][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:094][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_159
+[2017.03.23-22.29.51:094][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:094][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_CornerFrame'
+[2017.03.23-22.29.51:095][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame Referenced by PillarCorner_160
+[2017.03.23-22.29.51:095][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_CornerFrame' while loading NULL.
+[2017.03.23-22.29.51:095][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_QuadPyramid'
+[2017.03.23-22.29.51:095][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid Referenced by Shape_QuadPyramid_7
+[2017.03.23-22.29.51:095][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_QuadPyramid' while loading NULL.
+[2017.03.23-22.29.51:096][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:096][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_10
+[2017.03.23-22.29.51:096][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:096][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:097][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_13
+[2017.03.23-22.29.51:097][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:097][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:097][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_14
+[2017.03.23-22.29.51:097][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:098][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:098][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_16
+[2017.03.23-22.29.51:098][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:098][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:099][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_17
+[2017.03.23-22.29.51:099][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:099][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:099][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_18
+[2017.03.23-22.29.51:099][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:100][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:100][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_20
+[2017.03.23-22.29.51:100][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:100][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:101][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_21
+[2017.03.23-22.29.51:101][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:101][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:101][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_23
+[2017.03.23-22.29.51:101][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:102][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:102][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_24
+[2017.03.23-22.29.51:102][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:103][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:103][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_26
+[2017.03.23-22.29.51:103][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:103][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:104][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_3
+[2017.03.23-22.29.51:104][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:104][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:104][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_30
+[2017.03.23-22.29.51:104][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:105][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:105][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_31
+[2017.03.23-22.29.51:105][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:105][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:106][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_32
+[2017.03.23-22.29.51:106][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:106][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:106][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_33
+[2017.03.23-22.29.51:107][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:107][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:107][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_34
+[2017.03.23-22.29.51:107][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:108][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:108][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_35
+[2017.03.23-22.29.51:108][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:108][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:109][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_36
+[2017.03.23-22.29.51:109][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:109][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:109][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_37
+[2017.03.23-22.29.51:109][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:110][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:110][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_38
+[2017.03.23-22.29.51:110][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:111][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:111][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_4
+[2017.03.23-22.29.51:111][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:111][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:112][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_5
+[2017.03.23-22.29.51:112][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:112][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Sphere'
+[2017.03.23-22.29.51:112][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere Referenced by Shape_Sphere_62
+[2017.03.23-22.29.51:112][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Sphere' while loading NULL.
+[2017.03.23-22.29.51:113][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:113][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_7
+[2017.03.23-22.29.51:113][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:114][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:114][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_8
+[2017.03.23-22.29.51:114][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:114][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2017.03.23-22.29.51:115][264]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by Shape_Sphere_9
+[2017.03.23-22.29.51:115][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading NULL.
+[2017.03.23-22.29.51:115][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_WindowFrame'
+[2017.03.23-22.29.51:115][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame Referenced by SM_WindowFrame_41
+[2017.03.23-22.29.51:115][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_WindowFrame' while loading NULL.
+[2017.03.23-22.29.51:116][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.29.51:116][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_Statue.SM_Statue Referenced by Statue_6
+[2017.03.23-22.29.51:116][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.29.51:117][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.29.51:117][264]LoadErrors: Info Failed to load /Game/StarterContent/Props/SM_TableRound.SM_TableRound Referenced by Table
+[2017.03.23-22.29.51:117][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.29.51:121][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Checker_Noise_M'
+[2017.03.23-22.29.51:121][264]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Checker_Noise_M.T_Checker_Noise_M Referenced by MaterialExpressionTextureSample_13
+[2017.03.23-22.29.51:121][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Checker_Noise_M' while loading NULL.
+[2017.03.23-22.29.51:122][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_N'
+[2017.03.23-22.29.51:122][264]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Tech_Dot_N.T_Tech_Dot_N Referenced by MaterialExpressionTextureSample_2
+[2017.03.23-22.29.51:122][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_N' while loading NULL.
+[2017.03.23-22.29.51:123][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Single_Tile_N'
+[2017.03.23-22.29.51:123][264]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Single_Tile_N.T_Single_Tile_N Referenced by MaterialExpressionTextureSample_3
+[2017.03.23-22.29.51:123][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Single_Tile_N' while loading NULL.
+[2017.03.23-22.29.51:124][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Checker_Noise_M'
+[2017.03.23-22.29.51:124][264]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Checker_Noise_M.T_Checker_Noise_M Referenced by MaterialExpressionTextureSample_5
+[2017.03.23-22.29.51:124][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Checker_Noise_M' while loading NULL.
+[2017.03.23-22.29.51:124][264]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Tech_Dot_M'
+[2017.03.23-22.29.51:125][264]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Tech_Dot_M.T_Tech_Dot_M Referenced by MaterialExpressionTextureSample_6
+[2017.03.23-22.29.51:125][264]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Tech_Dot_M' while loading NULL.
+[2017.03.23-22.29.51:197][264]LogMaterial: Missing cached shader map for material M_Tech_Checker_Dot, compiling. 
+[2017.03.23-22.29.51:197][264]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Tech_Checker_Dot.M_Tech_Checker_Dot for platform PCD3D_SM5, Default Material will be used in game.
+[2017.03.23-22.29.51:197][264]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.03.23-22.29.51:223][264]LogAIModule: Creating AISystem for world StarterMap
+[2017.03.23-22.30.07:511][741]LightingResults: New page: Lighting Build
+[2017.03.23-22.30.07:511][741]MapCheck: New page: Map Check
+[2017.03.23-22.30.07:511][741]LightingResults: New page: Lighting Build
+[2017.03.23-22.30.07:524][741]LogAIModule: Creating AISystem for world Untitled
+[2017.03.23-22.30.07:528][741]LoadErrors: New page: New Map
+[2017.03.23-22.30.07:534][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:534][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:535][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.30.07:536][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading ../../../../../../Users/u0950276/Desktop/Templeint/Content/StarterContent/Maps/Minimal_Default.umap.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.30.07:537][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.30.07:538][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Chair'
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Chair' while loading NULL.
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_Chair'
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Chair' while loading NULL.
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_Statue'
+[2017.03.23-22.30.07:541][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_Statue' while loading NULL.
+[2017.03.23-22.30.07:542][741]LogLinker: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2017.03.23-22.30.07:542][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading NULL.
+[2017.03.23-22.30.07:542][741]LogLinker: Can't find file '/Game/StarterContent/Props/SM_TableRound'
+[2017.03.23-22.30.07:542][741]LogLinker: Can't find file for asset '/Game/StarterContent/Props/SM_TableRound' while loading NULL.
+[2017.03.23-22.30.07:548][741]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.23-22.30.08:317][741]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.143 s
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: === Handled ensure: ===
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: 
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2293]
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: 
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: Stack: 
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000294995D6
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000029249B72
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002925B656
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000023B869A7
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000233E8B59
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000002366FEE2
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000235F6892
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000235F9219
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000023668249
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000257BCF25
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000257EA4AE
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002561411C
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000255E47F5
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025687193
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025671100
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025660211
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948CDE9
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000294767B1
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948EA0C
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000294726D9
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: USER32.dll!0x000000005B4D1C24
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: USER32.dll!0x000000005B4D156C
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948F279
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025692944
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002561D2D2
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000236FBADF
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000023B7A729
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000001576CD2E
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000015774D27
+[2017.03.23-22.30.08:317][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000156F2BAE
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000156F5989
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000015771129
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000001576EDB5
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000157D5444
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000156F2F22
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000156F5C59
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000015771E09
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000257BCF25
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000257EA4AE
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000002561411C
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000255E47F5
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025687193
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025671100
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000025660211
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948CDE9
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000294767B1
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948EA0C
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000294726D9
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: USER32.dll!0x000000005B4D1C24
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: USER32.dll!0x000000005B4D156C
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002948F316
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor.exe!0x0000000015BDD790
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor.exe!0x0000000015BCEB40
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor.exe!0x0000000015BCEBBA
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor.exe!0x0000000015BE0A29
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: UE4Editor.exe!0x0000000015BE22B6
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: KERNEL32.DLL!0x000000005AC48364
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: ntdll.dll!0x000000005D6F70D1
+[2017.03.23-22.30.08:318][741]LogOutputDevice:Error: 
+[2017.03.23-22.30.08:325][741]LogStats:                SubmitErrorReport -  0.000 s
